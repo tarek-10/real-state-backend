@@ -1,0 +1,4 @@
+const GET_CHAT = "GET_CHAT";
+const ADD_CHAT = "ADD_CHAT";
+const READ_CHAT = "READ_CHAT";
+export { GET_CHAT, ADD_CHAT, READ_CHAT };
