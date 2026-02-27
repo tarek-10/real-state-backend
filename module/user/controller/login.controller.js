@@ -23,7 +23,7 @@ const loginFun = async (req, res) => {
         );
         res.cookie("token", token, {
           httpOnly: true,
-          // secure:true,
+          secure: true,
           maxAge: age,
         });
         res.status(StatusCodes.OK).json({
